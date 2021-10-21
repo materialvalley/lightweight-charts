@@ -12,7 +12,7 @@ export function drawCircle(
 	const halfSize = (circleSize - 1) / 2;
 
 	ctx.beginPath();
-	ctx.arc(centerX, centerY, halfSize, 0, 2 * Math.PI, false);
+	ctx.arc(centerX, centerY, halfSize * 2, 0, 2 * Math.PI, false);
 
 	ctx.fill();
 }
